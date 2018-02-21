@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: user-management
+  datasource:
+    url: jdbc:mysql://dondonTamayo.cs0evynrpoxr.ap-southeast-2.rds.amazonaws.com:3306/userManagement
+    username: root
+    password:
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      ddl-auto: update
+
+server:
+  port: 8080
+  context-path: /
