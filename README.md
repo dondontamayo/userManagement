@@ -15,10 +15,14 @@ Technologies
 - Spring Profiles - only the default profile is use but could have more to handle different environments
 - Docker - A docker image has been included to run this service in a docker container that can be ship in the cloud
 
+Source url
+------------
+
+    1. Source codes are stored in https://github.com/dondontamayo/userManagement
 
 Local Development Setup
 -----------------------
-1. unzip file to your folder:
+1. unzip file to your folder OR clone git@github.com:dondontamayo/userManagement.git
     - install mysql if you have not done so
     - modify your mysql url to point to your schema/database
     - create your table and modify your entity to map to it. 
